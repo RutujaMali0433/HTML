@@ -1,0 +1,90 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color: gray;
+    margin: 50px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+header h1 {
+    color: red;
+    margin: 50px;
+    text-align: center;
+    font-size: medium;
+    border-spacing: 200px 200px;
+
+}
+
+.navbar nav {
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px;
+}
+
+section p {
+    font-size: large;
+    border-style: solid;
+    margin: 10px;
+}
+
+table {
+    text-align: center;
+    margin: 10px;
+}
+td {
+    font-size: medium;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+td div {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+td div img {
+    padding: 10px;
+}
+
+
+.container {
+    font-size: medium;
+    background-color: grey;
+    color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+    @media screen and (min-width: 1200px) {
+        tr{
+            width: 100%;
+            gap: 30px;
+        }
+        nav a {
+            max-width: 500px;
+            flex-wrap: nowrap;
+            padding-top: 10px;
+            margin: 10px;
+        }
+        td {
+            padding: 10px;
+        }
+        td div {
+            background-color: chocolate;
+            padding: 10px;
+        }
+        section p {
+            border-style: groove;
+        }
+        
+    }

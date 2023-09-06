@@ -1,0 +1,95 @@
+* {
+    font-family:'Courier New', Courier, monospace;
+}
+
+header {
+    background-color: gray;
+    margin: 50px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+header h1 {
+    font-size:medium;
+    color: red;
+    margin: 50px;
+    text-align: center;
+    border-spacing: 200px 200px;
+
+}
+
+.navbar nav {
+    text-align: center;
+}
+@media screen and (min-width="600px") {
+    .navbar nav {
+        grid-template-columns: auto;
+    }
+    
+}
+
+nav a {
+    text-align: center;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+section p {
+    font-size: large;
+    border-style: solid;
+    margin: 10px;
+}
+
+table {
+    text-align: center;
+    margin: 10px;
+}
+td {
+    font-size: medium;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+td div {
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+
+
+td div img {
+    padding: 10px;
+}
+
+
+.container {
+    font-size: medium;
+    background-color: grey;
+    color: antiquewhite;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+
+    @media screen and (max-width: 600px) {
+        tr{
+            width: 50%;
+        }
+        nav a {
+            
+            flex-wrap: nowrap;
+            padding-top: 10px;
+            margin: 10px;
+            justify-content: space-between;
+        }
+        td div{
+            background-color: brown;
+            padding: 10px;
+        }
+        section p {
+            border-style: dashed;
+        }
+        
+    }
